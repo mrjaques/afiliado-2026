@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="p:domain_verify" content="88b5d119634c313aed7a4b734c552a92"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <img src="assets/logo.png" alt="" class="header__logo">
+            <ul class="header__ul">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+        <div class="header__banner">
+            
+            <div class="banner__search-container">
+                <div class="banner__search-box">
+                    <svg class="search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input type="text" class="search__input" placeholder="O que você está procurando?">
+                    <button class="search__button">Buscar</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="produtos__principal">
+            <h1>Bem-vindo ao nosso site!</h1>
+            <p>Veja as melhores ofertas e promoções, se você gosta de achadinhos da internet, aqui é o lugar.</p>
+        </div>
+        <section class="produtos">
+    <h2 class="produtos__titulo">Novos Produtos</h2>
+    
+        <!--Produto inseridos via Json-->
+        <div class="produtos__cards" id="produtos"></div>
+        </section>
+    </main>
+
+    <div id="produtos" class="grid"></div>
+    <footer></footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
