@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de achados e promoções da internet">
+    <title>Achados By Gabriel Jaques</title>
+    <meta name="p:domain_verify" content="88b5d119634c313aed7a4b734c552a92" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <img src="assets/logo.png" alt="" class="header__logo">
+            <ul class="header__ul">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+        <div class="header__banner">
+
+            <div class="banner__search-container">
+                <div class="banner__search-box">
+                    <svg class="search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input type="text" class="search__input" placeholder="O que você está procurando?">
+                    <button class="search__button">Buscar</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="max-w-7xl mx-auto px-4 py-16">
+            <div class="text-center mb-16 opacity-0 animate-fade-in-down"
+                style="animation-delay: 0.1s; animation-fill-mode: forwards;">
+                <h1 class="text-4xl md:text-5xl font-bold text-[#2D2654] mb-4">Nossos Serviços</h1>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Conheça as soluções que oferecemos para você
+                    economizar e lucrar muito mais.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Card 1: Cupons -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-b-4 border-[#e8b610] opacity-0 animate-fade-in-up"
+                    style="animation-delay: 0.2s; animation-fill-mode: forwards;">
+                    <div class="w-16 h-16 bg-[#fff8e1] rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#e8b610]" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#2D2654] text-center mb-3">Cupons de Desconto</h3>
+                    <p class="text-gray-600 text-center">Acesse milhares de cupons exclusivos para as maiores lojas do
+                        Brasil e do mundo.</p>
+                </div>
+
+                <!-- Card 2: Promoções -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-b-4 border-[#ea5008] opacity-0 animate-fade-in-up"
+                    style="animation-delay: 0.3s; animation-fill-mode: forwards;">
+                    <div class="w-16 h-16 bg-[#ffece6] rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#ea5008]" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#2D2654] text-center mb-3">Promoções de Lojas</h3>
+                    <p class="text-gray-600 text-center">Monitoramos preços diariamente para trazer as ofertas mais
+                        quentes do momento.</p>
+                </div>
+
+                <!-- Card 3: Links -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-b-4 border-[#e8b610] opacity-0 animate-fade-in-up"
+                    style="animation-delay: 0.4s; animation-fill-mode: forwards;">
+                    <div class="w-16 h-16 bg-[#fff8e1] rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#e8b610]" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#2D2654] text-center mb-3">Links de Produtos</h3>
+                    <p class="text-gray-600 text-center">Encontre facilmente os links diretos para os produtos que você
+                        viu em nossos canais.</p>
+                </div>
+
+                <!-- Card 4: Suporte -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-b-4 border-[#ea5008] opacity-0 animate-fade-in-up"
+                    style="animation-delay: 0.5s; animation-fill-mode: forwards;">
+                    <div class="w-16 h-16 bg-[#ffece6] rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-[#ea5008]" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#2D2654] text-center mb-3">Suporte a Afiliados</h3>
+                    <p class="text-gray-600 text-center">Dicas, estratégias e material de apoio para quem quer lucrar
+                        como afiliado.</p>
+                </div>
+            </div>
+
+            <style>
+                @keyframes fadeInUp {
+                    from {
+                        opacity: 0;
+                        transform: translate3d(0, 40px, 0);
+                    }
+
+                    to {
+                        opacity: 1;
+                        transform: translate3d(0, 0, 0);
+                    }
+                }
+
+                @keyframes fadeInDown {
+                    from {
+                        opacity: 0;
+                        transform: translate3d(0, -40px, 0);
+                    }
+
+                    to {
+                        opacity: 1;
+                        transform: translate3d(0, 0, 0);
+                    }
+                }
+
+                .animate-fade-in-up {
+                    animation: fadeInUp 0.8s ease-out;
+                }
+
+                .animate-fade-in-down {
+                    animation: fadeInDown 0.8s ease-out;
+                }
+            </style>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

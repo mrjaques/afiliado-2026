@@ -361,3 +361,33 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+
+/* Contatos */
+.contatos__container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contatos__container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contatos__container input,
+.contatos__container textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contatos__container button {
+    padding: 10px;
+    background-color: #e8b610;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site de achados e promoções da internet">
-    <title>Achados By Gabriel Jaques</title>
-    <meta name="p:domain_verify" content="88b5d119634c313aed7a4b734c552a92"/>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -20,10 +18,11 @@
             </ul>
         </nav>
         <div class="header__banner">
-            
+
             <div class="banner__search-container">
-                <div class="banner__search-box " style="animation-delay: 0.2s; animation-fill-mode: forwards;">
-                    <svg class="search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <div class="banner__search-box">
+                    <svg class="search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
                         <circle cx="11" cy="11" r="8"></circle>
                         <path d="m21 21-4.35-4.35"></path>
                     </svg>
@@ -33,22 +32,25 @@
             </div>
         </div>
     </header>
-
     <main>
-        <div class="produtos__principal">
-            <h1 class="text-4xl md:text-5xl font-bold mb-4">Bem-vindo ao nosso site!</h1>
-            <p class="text-lg text-[#2D2654] mb-4">Veja as melhores ofertas e promoções, se você gosta de achadinhos da internet, aqui é o lugar.</p>
+        <div class="contatos__container" >
+            <form action="">
+            <div class="flex flex-col">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div class="flex flex-col">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="flex flex-col">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+            </form>
         </div>
-        <section class="produtos">
-    <h2 class="produtos__titulo">Novos Produtos</h2>
-    
-        <!--Produto inseridos via Json-->
-        <div class="produtos__cards" id="produtos"></div>
-        </section>
+        
     </main>
-
-    <div id="produtos" class="grid"></div>
-    <footer></footer>
-    <script src="./js/script.js"></script>
 </body>
 </html>
